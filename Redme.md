@@ -1,7 +1,7 @@
 Requirements:
     1. Must have a Keypair in local computer
-    2. Change the Keyname in "resources.yaml to the name of your key pair
         - I provided a key pair inside the folder for use.
+    2. Change the Keyname in "resources.yaml to the name of your key pair
     3. Running on Python3.9 environment
     4. pip install AWSCLI
     5. configure AWS credential by typing "aws configure" on the terminal

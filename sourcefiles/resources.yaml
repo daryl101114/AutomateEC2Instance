@@ -1,0 +1,24 @@
+
+#RESORUCES
+EC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+        ImageId: ami-0d5eff06f840b45e9
+        InstanceType: t2.micro
+        KeyName: test
+        BlockDeviceMappings:
+        -
+          DeviceName: /dev/xvda
+          Ebs:
+            VolumeSize: 10
+        -
+          DeviceName: /dev/xvdf
+          Ebs:
+            VolumeSize: 100
+        users:
+          - login: user1
+            ssh_key: --user1 ssh public key goes here-- user1@localhost
+          - login: user2
+            ssh_key: --user2 ssh public key goes here-- user2@localhost
+#USERS
+

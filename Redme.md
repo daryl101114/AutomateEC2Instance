@@ -1,4 +1,5 @@
 Requirements:
+
     1. Must have a Keypair in local computer
         - I provided a key pair inside the folder for use.
     2. Change the Keyname in "resources.yaml to the name of your key pair

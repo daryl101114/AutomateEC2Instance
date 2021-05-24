@@ -20,8 +20,11 @@ What I couldn't do:
 
     -let user1 and user2 ssh into the ec2 instance.
 
+What I want to add in the future:
+
+    -The program would look for failed EC2 instance by monitoring the health check and would automatically spin up an EC2 instance.
+
 What I've learned in the assignment:
 
     Going into the assignment I had knowledge with cloudformation and terraform. However, this assignment required using python and boto3. It was challenging because I had no prior experience coding in python.
-    I was not familliar with BOTO3 aswell. I did alot of reading into BOTO3 documentation and found the technology really interesting. transitioning from JAVA to python was not really hard. By doing so, I was able to see the power of Python
-    and what it can do. I enjoyed working on this assignment. I learned how to utilize python and boto3 to automate provisioning AWS resources. 
+    I was not familliar with BOTO3 aswell. I did alot of reading into BOTO3 documentation and found the technology really interesting. transitioning from JAVA to python was not really hard. By doing so, I was able to get a hands on experience on the ability of python in automation. I enjoyed working on this assignment. I learned how to utilize python and boto3 to automate provisioning AWS resources. 

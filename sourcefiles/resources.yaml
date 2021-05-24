@@ -5,7 +5,7 @@ EC2Instance:
     Properties:
         ImageId: ami-0d5eff06f840b45e9
         InstanceType: t2.micro
-        KeyName: test
+        KeyName: test #Input the name of your keypair here
         BlockDeviceMappings:
         -
           DeviceName: /dev/xvda
@@ -20,5 +20,5 @@ EC2Instance:
             ssh_key: --user1 ssh public key goes here-- user1@localhost
           - login: user2
             ssh_key: --user2 ssh public key goes here-- user2@localhost
-#USERS
+
 
